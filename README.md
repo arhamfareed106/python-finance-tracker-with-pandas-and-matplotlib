@@ -1,26 +1,11 @@
-﻿# python-finance-tracker-with-pandas-and-matplotlib
-Finance Tracker
-A simple command-line based finance tracker built with Python.
+﻿#Python Finance Tracker with Pandas and Matplotlib
+A simple yet effective command-line finance tracker to help you monitor and manage your finances. Built with Python, Pandas, and Matplotlib, this tracker allows you to record transactions, view summaries, and visualize your income and expenses over time.
 
-Features
-Add new transactions with date, amount, category, and description
-View transactions and summary within a date range
-Plot income and expenses over time
-Requirements
-Python 3.x
-pandas
-matplotlib
-csv
-Installation
-Clone the repository: git clone https://github.com/your-username/finance-tracker.git
-Install the required libraries: pip install pandas matplotlib csv
-Run the application: python main.py
-Usage
-Run the application: python main.py
-Follow the prompts to add new transactions or view existing ones
-Use the plot option to visualize income and expenses over time
-Code Structure
-The code is organized into the following files:
+✨ Features
+Add New Transactions: Log transactions with details like date, amount, category, and description.
+View Transactions: Review your transaction history within specified date ranges.
+Summary Report: Access an automated summary of your income, expenses, and net balance for selected periods.
+Visualization: Plot your income and expenses trends over time with easy-to-read graphs.organized into the following files:
 
 main.py: The main application file
 data_entry.py: Contains functions for getting user input (date, amount, category, description)
