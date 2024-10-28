@@ -1,4 +1,4 @@
-﻿#Python Finance Tracker with Pandas and Matplotlib
+﻿# Python Finance Tracker with Pandas and Matplotlib
 A simple yet effective command-line finance tracker to help you monitor and manage your finances. Built with Python, Pandas, and Matplotlib, this tracker allows you to record transactions, view summaries, and visualize your income and expenses over time.
 
 ✨ Features
