@@ -4,8 +4,7 @@ from datetime import datetime
 from data_entry import get_amount, get_category, get_date, get_descriptipn
 import matplotlib.pyplot as plt
 
- 
- 
+
 class CSV:
     CSV_FILE = "finance_data.csv"
     COLUMNS = ["date", "amount", "category", "description"]
@@ -51,7 +50,7 @@ class CSV:
             print(
                 filtered_df.to_string(
                     index=False, formatters={"date": lambda x: x.strftime(CSV.FORMAT)}
-                )
+                ) # type: ignore
             )
 
             total_income = filtered_df[filtered_df["category"] == "Income"][
@@ -131,7 +130,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
